@@ -7,7 +7,7 @@ rule "age check"
 	ruleflow-group "agecheck"
 	no-loop true
 	when
-		do : DemoObj( cusAge < 60 )
+		dobj : DemoObj( cusAge < 60 )
 	then
-		do.setCusName( "john" );
+		dobj.setCusName( "john" );
 end
