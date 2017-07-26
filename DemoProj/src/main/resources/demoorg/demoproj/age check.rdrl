@@ -4,6 +4,10 @@ import java.lang.Number;
 
 rule "age check"
 	dialect "mvel"
+	ruleflow-group "agecheck"
+	no-loop true
 	when
+		do : DemoObj( cusAge < 60 )
 	then
+		do.setCusName( "john" );
 end
