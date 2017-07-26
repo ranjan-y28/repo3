@@ -1,0 +1,9 @@
+package demoorg.demoproj;
+
+import java.lang.Number;
+
+rule "age check"
+	dialect "mvel"
+	when
+	then
+end
