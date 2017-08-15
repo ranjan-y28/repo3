@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>DemoOrg</groupId>
   <artifactId>DemoProj</artifactId>
-  <version>5.0</version>
+  <version>6.0</version>
   <name>DemoProj</name>
   <build>
     <plugins>
