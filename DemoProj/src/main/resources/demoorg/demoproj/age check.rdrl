@@ -10,5 +10,5 @@ rule "age check"
 		dobj : DemoObj( cusAge < 60 )
 	then
 		dobj.setCusName( "john" );
-		System.out.println("Hello JBPM-Inside Rule");
+		System.out.println("Inside Rule task");
 end
