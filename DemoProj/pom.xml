@@ -16,11 +16,4 @@
       </plugin>
     </plugins>
   </build>
-<dependencies>
-<dependency>  
-  <groupId>org.kie.remote</groupId>  
-  <artifactId>kie-remote-client</artifactId>  
-  <version>6.2.0.Final-redhat-4</version>
-  </dependency>  
-</dependencies>
 </project>
