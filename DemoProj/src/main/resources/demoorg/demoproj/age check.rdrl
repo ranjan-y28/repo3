@@ -7,7 +7,7 @@ rule "age check"
 	no-loop true
 	ruleflow-group "ageval"
 	when
-		dobj : DemoObj( cusAge < 60 )
+		dobj : DemoObj( cusAge < 70 )
 	then
 		dobj.setCusName( "john" );
 		System.out.println("Inside Rule task");
